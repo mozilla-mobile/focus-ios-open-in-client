@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		916D4F451F6A6AD6008D6D18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9170AF551F6A69A900E4318F /* Main.storyboard */; };
 		9170AF171F6A5B6A00E4318F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9170AF161F6A5B6A00E4318F /* AppDelegate.swift */; };
 		9170AF191F6A5B6A00E4318F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9170AF181F6A5B6A00E4318F /* ViewController.swift */; };
-		9170AF1C1F6A5B6A00E4318F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9170AF1A1F6A5B6A00E4318F /* Main.storyboard */; };
-		9170AF1E1F6A5B6A00E4318F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9170AF1D1F6A5B6A00E4318F /* Assets.xcassets */; };
-		9170AF211F6A5B6A00E4318F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9170AF1F1F6A5B6A00E4318F /* LaunchScreen.storyboard */; };
+		9170AF4F1F6A634600E4318F /* OpenInFocusControllerSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9170AF4B1F6A634500E4318F /* OpenInFocusControllerSwift.swift */; };
+		9170AF501F6A634600E4318F /* OpenInFocusControllerObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9170AF4E1F6A634500E4318F /* OpenInFocusControllerObjC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9170AF131F6A5B6A00E4318F /* OpenInFocusClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenInFocusClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9170AF161F6A5B6A00E4318F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9170AF181F6A5B6A00E4318F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9170AF1B1F6A5B6A00E4318F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9170AF1D1F6A5B6A00E4318F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9170AF201F6A5B6A00E4318F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9170AF221F6A5B6A00E4318F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9170AF4A1F6A634400E4318F /* OpenInFocusClient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenInFocusClient-Bridging-Header.h"; sourceTree = "<group>"; };
+		9170AF4B1F6A634500E4318F /* OpenInFocusControllerSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenInFocusControllerSwift.swift; sourceTree = "<group>"; };
+		9170AF4C1F6A634500E4318F /* OpenInFocusControllerObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenInFocusControllerObjC.h; sourceTree = "<group>"; };
+		9170AF4E1F6A634500E4318F /* OpenInFocusControllerObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenInFocusControllerObjC.m; sourceTree = "<group>"; };
+		9170AF511F6A635200E4318F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9170AF531F6A643000E4318F /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		9170AF551F6A69A900E4318F /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,26 @@
 		9170AF151F6A5B6A00E4318F /* OpenInFocusClient */ = {
 			isa = PBXGroup;
 			children = (
-				9170AF161F6A5B6A00E4318F /* AppDelegate.swift */,
-				9170AF181F6A5B6A00E4318F /* ViewController.swift */,
-				9170AF1A1F6A5B6A00E4318F /* Main.storyboard */,
-				9170AF1D1F6A5B6A00E4318F /* Assets.xcassets */,
-				9170AF1F1F6A5B6A00E4318F /* LaunchScreen.storyboard */,
+				9170AF521F6A641600E4318F /* Example App */,
+				9170AF4B1F6A634500E4318F /* OpenInFocusControllerSwift.swift */,
+				9170AF4C1F6A634500E4318F /* OpenInFocusControllerObjC.h */,
+				9170AF4E1F6A634500E4318F /* OpenInFocusControllerObjC.m */,
 				9170AF221F6A5B6A00E4318F /* Info.plist */,
+				9170AF4A1F6A634400E4318F /* OpenInFocusClient-Bridging-Header.h */,
 			);
 			path = OpenInFocusClient;
+			sourceTree = "<group>";
+		};
+		9170AF521F6A641600E4318F /* Example App */ = {
+			isa = PBXGroup;
+			children = (
+				9170AF161F6A5B6A00E4318F /* AppDelegate.swift */,
+				9170AF181F6A5B6A00E4318F /* ViewController.swift */,
+				9170AF551F6A69A900E4318F /* Main.storyboard */,
+				9170AF511F6A635200E4318F /* Images.xcassets */,
+				9170AF531F6A643000E4318F /* LaunchScreen.xib */,
+			);
+			path = "Example App";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +112,7 @@
 				TargetAttributes = {
 					9170AF121F6A5B6A00E4318F = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,9 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9170AF211F6A5B6A00E4318F /* LaunchScreen.storyboard in Resources */,
-				9170AF1E1F6A5B6A00E4318F /* Assets.xcassets in Resources */,
-				9170AF1C1F6A5B6A00E4318F /* Main.storyboard in Resources */,
+				916D4F451F6A6AD6008D6D18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,30 +152,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9170AF191F6A5B6A00E4318F /* ViewController.swift in Sources */,
+				9170AF4F1F6A634600E4318F /* OpenInFocusControllerSwift.swift in Sources */,
+				9170AF501F6A634600E4318F /* OpenInFocusControllerObjC.m in Sources */,
 				9170AF171F6A5B6A00E4318F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		9170AF1A1F6A5B6A00E4318F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9170AF1B1F6A5B6A00E4318F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9170AF1F1F6A5B6A00E4318F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9170AF201F6A5B6A00E4318F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9170AF231F6A5B6A00E4318F /* Debug */ = {
@@ -274,12 +272,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OpenInFocusClient/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.mozilla.OpenInFocusClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenInFocusClient/OpenInFocusClient-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,12 +291,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OpenInFocusClient/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.mozilla.OpenInFocusClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenInFocusClient/OpenInFocusClient-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
