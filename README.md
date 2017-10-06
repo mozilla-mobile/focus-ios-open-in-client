@@ -28,4 +28,4 @@ firefox-focus://open-url?url=https%253A%252F%252Fwww.mozilla.org%252Fen-US%252Fn
   * [Example in Swift](https://github.com/mozilla/focus-ios-open-in-client/blob/master/OpenInFocusClient/ViewController.swift#L38-41)
 
 ### Contribute to Focus for iOS ###
-Learn more about how to contribute to this project: [Focus for iOS official repo](https://github.com/mozilla/firefox-ios)
+Learn more about how to contribute to this project: [Focus for iOS official repo](https://github.com/mozilla-mobile/focus-ios)
